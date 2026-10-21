@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThreadMillCatalog>
+  <Tool PartCode="CUT0002566" Name="TM-01 60deg d0.73 0.25mm 2F" DiameterMm="0.73" ShankMm="4" FluteLengthMm="2.3" LengthMm="50" Flutes="2" PitchMinMm="0.25" PitchMaxMm="0.25" PitchLabel="0.25 mm (101 TPI)" />
+  <Tool PartCode="CUT0002567" Name="TM-02 60deg d0.90 0.25mm 2F" DiameterMm="0.9" ShankMm="4" FluteLengthMm="3.6" LengthMm="50" Flutes="2" PitchMinMm="0.25" PitchMaxMm="0.25" PitchLabel="0.25 mm (101 TPI)" />
+  <Tool PartCode="CUT0002568" Name="TM-03 60deg d1.05 0.30mm 3F" DiameterMm="1.05" ShankMm="4" FluteLengthMm="3.5" LengthMm="50" Flutes="3" PitchMinMm="0.30" PitchMaxMm="0.30" PitchLabel="0.30 mm (84 TPI)" />
+  <Tool PartCode="CUT0002569" Name="TM-04 60deg d1.20 0.35mm 3F" DiameterMm="1.2" ShankMm="4" FluteLengthMm="4" LengthMm="50" Flutes="3" PitchMinMm="0.35" PitchMaxMm="0.35" PitchLabel="0.35 mm (72 TPI)" />
+  <Tool PartCode="CUT0002571" Name="TM-05 60deg d1.96 P0.45-0.60 3F" DiameterMm="1.96" ShankMm="4" FluteLengthMm="6.5" LengthMm="50" Flutes="3" PitchMinMm="0.45" PitchMaxMm="0.60" PitchLabel="0.45-0.60 mm (56-42 TPI)" />
+  <Tool PartCode="CUT0002572" Name="TM-06 60deg d2.35 P0.50-0.70 4F" DiameterMm="2.35" ShankMm="4" FluteLengthMm="8" LengthMm="50" Flutes="4" PitchMinMm="0.50" PitchMaxMm="0.70" PitchLabel="0.50-0.70 mm (50-36 TPI)" />
+  <Tool PartCode="CUT0002573" Name="TM-07 60deg d3.15 P0.50-1.00 4F" DiameterMm="3.15" ShankMm="4" FluteLengthMm="10" LengthMm="50" Flutes="4" PitchMinMm="0.50" PitchMaxMm="1.00" PitchLabel="0.50-1.00 mm (50-25 TPI)" />
+  <Tool PartCode="CUT0002574" Name="TM-08 60deg d4.00 P0.50-1.00 4F" DiameterMm="4" ShankMm="4" FluteLengthMm="12" LengthMm="50" Flutes="4" PitchMinMm="0.50" PitchMaxMm="1.00" PitchLabel="0.50-1.00 mm (50-25 TPI)" />
+  <Tool PartCode="CUT0002575" Name="TM-09 60deg d4.80 P0.50-1.25 4F" DiameterMm="4.8" ShankMm="6" FluteLengthMm="16" LengthMm="50" Flutes="4" PitchMinMm="0.50" PitchMaxMm="1.25" PitchLabel="0.50-1.25 mm (50-20 TPI)" />
+  <Tool PartCode="CUT0002576" Name="TM-10 60deg d6.00 P0.50-1.25 4F" DiameterMm="6" ShankMm="6" FluteLengthMm="16" LengthMm="50" Flutes="4" PitchMinMm="0.50" PitchMaxMm="1.25" PitchLabel="0.50-1.25 mm (50-20 TPI)" />
+  <Tool PartCode="CUT0002577" Name="TM-11 60deg d7.70 P0.80-2.00 4F" DiameterMm="7.7" ShankMm="8" FluteLengthMm="25" LengthMm="60" Flutes="4" PitchMinMm="0.80" PitchMaxMm="2.00" PitchLabel="0.80-2.00 mm (31-12 TPI)" />
+  <Tool PartCode="CUT0002578" Name="TM-12 60deg d10.00 P1.00-2.00 4F" DiameterMm="10" ShankMm="10" FluteLengthMm="30" LengthMm="75" Flutes="4" PitchMinMm="1.00" PitchMaxMm="2.00" PitchLabel="1.00-2.00 mm (25-12 TPI)" />
+</ThreadMillCatalog>
