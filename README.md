@@ -4,7 +4,7 @@ Standalone plugins for CamBam 1.0 x64. Each plugin has its own versioned source 
 
 | Plugin | Current version | What it does |
 | --- | --- | --- |
-| [Tapping](tapping/v0.1.0/README.md) | 0.1.0 | Creates clearance-hole Spiral Mill and internal ThreadingMOP pairs, selecting matching end mills from the active tool library. |
+| [Tapping](tapping/v0.1.0/README.md) | 0.1.0 | Creates clearance-hole Spiral Mill and internal ThreadingMOP pairs, selecting matching end mills from the active tool library. **Requires the compatible CamBam 1.0 x64 ThreadingMOP plugin installed first.** |
 | [Hole Drilling](hole-drilling/v0.1.0/README.md) | 0.1.0 | Groups selected hole circles, prompts for depth per size, and creates Drill MOPs with the largest suitable EndMill. |
 
 ## Downloads

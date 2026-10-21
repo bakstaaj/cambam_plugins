@@ -9,6 +9,9 @@ if (-not (Test-Path -LiteralPath $source -PathType Leaf)) {
 if (-not (Test-Path -LiteralPath $destination -PathType Container)) {
     throw "CamBam plugin folder not found: $destination"
 }
+if (-not (Test-Path -LiteralPath (Join-Path $destination 'ThreadingMOP.dll') -PathType Leaf)) {
+    throw "Required dependency ThreadingMOP.dll is missing from $destination. Install the compatible CamBam 1.0 x64 ThreadingMOP plugin first, then rerun this installer."
+}
 if (-not (Test-Path -LiteralPath $catalogPath -PathType Leaf)) {
     throw "Thread mill catalog not found: $catalogPath"
 }

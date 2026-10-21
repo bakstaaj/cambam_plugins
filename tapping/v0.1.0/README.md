@@ -1,8 +1,10 @@
 # Tapping for CamBam 1.0 x64
 
-Version: **0.1.0**
-
 This CamBam plugin creates a clearance-drilling MOP and an internal ThreadingMOP from selected bore circles. The selected circle diameter is treated as the drill/bore diameter. The operations are inserted in this order: drilling, then thread milling.
+
+## Required dependency
+
+Install the compatible **ThreadingMOP plugin for CamBam 1.0 x64 before installing or using Tapping**. Tapping creates a ThreadingMOP operation and depends on `ThreadingMOP.dll` in CamBam's `plugins` folder. The Tapping installer checks for that file and stops with an error if it is missing.
 
 ## Workflow
 
@@ -18,21 +20,15 @@ One invocation can handle multiple bore diameters. The plugin groups circles wit
 
 The supplied thread mills are recorded in `ThreadMillCatalog.xml` and merged into both `Default-mm.xml` and `Default-in.xml` when installed. The plugin chooses the largest supplied cutter smaller than the bore whose manufacturer-listed pitch range includes the selected pitch. It reports when no supplied cutter fits and will not create an operation pair for that selection. Inch library dimensions are converted from the millimeter cutter specifications. For the clearance operation, it reads the active Part tool library (or the unit-specific default library) and selects the largest positive-diameter `EndMill` smaller than the bore, excluding the single-profile thread mills. The Drill MOP uses Spiral Mill mode so that cutter makes the specified bore diameter. Existing tool indexes are retained; new cutters get unused indexes. The installer keeps a one-time backup beside each default library before modifying it.
 
-## Screenshot
-
-The dialog below shows the thread and depth selection for a 3.3 mm bore. The plugin identifies M4 × 0.7 and reports the matching 3.15 mm thread mill.
-
-![Tapping thread and cutter selection dialog](screenshots/thread-picker.png)
-
 ## Install
 
-Close CamBam. Run `Install-Tapping.cmd`; approve the Windows administrator prompt. It copies `Tapping.dll` and `ThreadMillCatalog.xml` to:
+First install the compatible x64 ThreadingMOP plugin. Close CamBam, then run `Install-Tapping.cmd`; approve the Windows administrator prompt. The installer verifies `ThreadingMOP.dll` is present, then copies `Tapping.dll` and `ThreadMillCatalog.xml` to:
 
 `C:\Program Files\CamBam plus 1.0\plugins`
 
 It also merges the cutters into any discovered CamBam 1.0 `Default-mm.xml` and `Default-in.xml` under ProgramData or Program Files. The installer is safe to rerun and retains existing tool numbers.
 
-Start CamBam and look under **Plugins** for **Tapping...**. The target installation must include the compatible x64 `ThreadingMOP.dll` plugin.
+Start CamBam and look under **Plugins** for **Tapping...**.
 
 ## Build
 
