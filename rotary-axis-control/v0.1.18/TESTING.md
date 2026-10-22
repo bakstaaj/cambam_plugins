@@ -1,9 +1,9 @@
-# Rotary Axis Control test procedure (v0.1.15)
+# Rotary Axis Control test procedure (v0.1.18)
 
 ## Package installation
 
 1. Close CamBam.
-2. Copy only `RotaryAxisCamBamPlugin.dll` from the test package into CamBam's existing plugin directory (the directory that contains its other plugin DLLs). Leave the existing `GRBLMachinePlugin.dll` and `CamBam.CAD.Solids.dll` untouched; this test build uses the original helper already installed with that plugin.
+2. Copy `RotaryAxisCamBamPlugin.dll` and `CamBam.CAD.Solids.dll` from the package into CamBam's existing plugin directory (the directory that contains its other plugin DLLs). The solids DLL is a required helper dependency and is included for users who do not already have it. If `CamBam.CAD.Solids.dll` is already present from the KDesign 3D Solids plugin, keep a backup before replacing it.
 3. Start CamBam and open **Plugins → Rotary Axis Control**.
 4. In the **Connection** tab, leave the physical connection closed, select **XYZ + A (4-axis)**, and click **START SIM**. Confirm the version is marked `SIM`, then test a small positive and negative jog and index to a nonzero target angle.
 5. Click **Set work zero**. Check the coordinate mode shown beside the top display: MPos remains the machine position. Click the mode label beside the display to switch from **MPos** to **WPos** and confirm the selected rotary axis reads zero.
@@ -15,7 +15,7 @@
 
 The initial preview draws linear G0/G1 motion in XY and Z, with G20/G21 and G90/G91 unit and distance modes. Arc moves and rotary-only motion are not yet projected into the 2D drawing preview; the rotary DRO still reports rotary position.
 
-To remove the test build, close CamBam and delete `RotaryAxisCamBamPlugin.dll`. Keep the original GRBL plugin and its helper DLL. The plugin keeps its settings in `RotaryAxisControl.config` and its postprocessor in `post/RotaryAxisControl.cbpp` under CamBam's system configuration folder.
+To remove the test build, close CamBam and delete `RotaryAxisCamBamPlugin.dll`. Keep `CamBam.CAD.Solids.dll` if the KDesign 3D Solids plugin or another CamBam plugin uses it. The plugin keeps its settings in `RotaryAxisControl.config` and its postprocessor in `post/RotaryAxisControl.cbpp` under CamBam's system configuration folder.
 
 ## Firmware and machine preflight
 

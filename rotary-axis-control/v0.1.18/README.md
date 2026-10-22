@@ -4,11 +4,7 @@ A new CamBam plugin project based on the locally downloaded GRBL Machine Plugin 
 
 ## Provenance and attribution
 
-The initial codebase was derived from **GRBLMachinePlugin** by **KDesign Electronics / Karst Drenth** (2017). Original notices are retained in the source where present, and the original developer is credited in the plugin's About panel. This is an independent derivative project with its own name and ongoing development.
-
-## Release
-
-Download the [v0.1.18 install ZIP](https://github.com/bakstaaj/cambam_plugins/raw/refs/heads/main/rotary-axis-control/v0.1.18/RotaryAxisControl-v0.1.18-install.zip) and its [SHA-256 checksum](https://github.com/bakstaaj/cambam_plugins/raw/refs/heads/main/rotary-axis-control/v0.1.18/RotaryAxisControl-v0.1.18-install.zip.sha256).
+The initial codebase was derived from **GRBLMachinePlugin** by **KDesign Electronics / Karst Drenth** (2017). The plugin also depends on **CamBam.CAD.Solids** by **KDesign Electronics** (copyright 2017), so the install package includes `CamBam.CAD.Solids.dll`. Original notices are retained in the source and the included helper assembly. The GRBLMachinePlugin developer is credited in the plugin's About panel; both components are credited here and in the [third-party notices](THIRD-PARTY-NOTICES.txt). This is an independent derivative project with its own name and ongoing development.
 
 ## Rotary axis milestone
 
