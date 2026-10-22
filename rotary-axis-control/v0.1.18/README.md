@@ -41,3 +41,4 @@ The following development captures show the slate-and-mint DRO and refreshed sim
 The solution targets .NET Framework 3.5 and AnyCPU. Build `Plugins.sln` in Release mode with a Visual Studio/MSBuild installation that includes the .NET Framework 3.5 resource-generation tools. The build expects `CamBam.CAD.dll` and `CamBam.Geom.dll` from an installed CamBam copy under `CamBamLibs`; these proprietary CamBam assemblies are not included in source releases.
 
 An installable test package is prepared under `dist/`. See `TESTING.md` for installation and the first low-risk controller checks.
+
