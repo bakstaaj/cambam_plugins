@@ -6,6 +6,10 @@ A new CamBam plugin project based on the locally downloaded GRBL Machine Plugin 
 
 The initial codebase was derived from **GRBLMachinePlugin** by **KDesign Electronics / Karst Drenth** (2017). Original notices are retained in the source where present, and the original developer is credited in the plugin's About panel. This is an independent derivative project with its own name and ongoing development.
 
+## Release
+
+Download the [v0.1.18 install ZIP](https://github.com/bakstaaj/cambam_plugins/raw/refs/heads/main/rotary-axis-control/v0.1.18/RotaryAxisControl-v0.1.18-install.zip) and its [SHA-256 checksum](https://github.com/bakstaaj/cambam_plugins/raw/refs/heads/main/rotary-axis-control/v0.1.18/RotaryAxisControl-v0.1.18-install.zip.sha256).
+
 ## Rotary axis milestone
 
 The plugin adds a selectable A/B/C axis, live rotary position feedback, relative degree jogging, single-angle indexing at a configured feed, and rotary work-zero setting. Commands are enabled only while connected and idle, outside a running job, and after the selected axis appears in controller position reports. The UI reminds the operator to clear the tool before indexing.
