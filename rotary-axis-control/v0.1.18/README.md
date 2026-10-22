@@ -26,23 +26,20 @@ When the controller reports rotary axes, the top display adds one position row f
 
 ## Screenshots
 
-The simulator runs without opening a serial port and lets users exercise jog, index, and G-code playback controls. This older capture shows the initial layout; current playback-speed buttons appear in the Production panel only while the simulator is active.
+These current captures show the slate-and-mint DRO, refreshed controls, and simulator playback UI. The Production panel screenshot shows the expanded panel with speed controls visible in simulator mode.
 
-![Connection panel with the XYZ + A simulator profile selected](docs/screenshots/simulator-connection-panel.png)
+![Final themed DRO, production speed controls, jogging controls, and rotary-axis panel](docs/screenshots/final-themed-production.png)
 
-The position display expands as rotary axes are reported, with each rotary position shown in degrees.
+The connection capture shows the simulator profile and the DRO. The simulator stays disconnected from serial ports.
 
-![CamBam position display showing XYZ and A/B/C rotary coordinates](docs/screenshots/expanded-rotary-axis-display.png)
+![Final themed DRO and simulator connection panel](docs/screenshots/final-themed-connection.png)
 
-The following development captures show the slate-and-mint DRO and refreshed simulator panel. They were captured during the final UI refinement; v0.1.18 includes the follow-up status-color and spacing fixes described above.
+The drawing view shows the simulated tool position alongside the loaded toolpath preview.
 
-![Themed DRO showing linear and rotary positions](docs/screenshots/themed-rotary-dro.png)
-
-![Themed connection panel with the simulator profile](docs/screenshots/themed-simulator-connection.png)
+![Simulated toolpath preview in the CamBam drawing view](docs/screenshots/simulated-toolpath-preview.png)
 
 ## Build
 
 The solution targets .NET Framework 3.5 and AnyCPU. Build `Plugins.sln` in Release mode with a Visual Studio/MSBuild installation that includes the .NET Framework 3.5 resource-generation tools. The build expects `CamBam.CAD.dll` and `CamBam.Geom.dll` from an installed CamBam copy under `CamBamLibs`; these proprietary CamBam assemblies are not included in source releases.
 
 An installable test package is prepared under `dist/`. See `TESTING.md` for installation and the first low-risk controller checks.
-
