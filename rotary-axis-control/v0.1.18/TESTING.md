@@ -3,7 +3,7 @@
 ## Package installation
 
 1. Close CamBam.
-2. Copy `RotaryAxisCamBamPlugin.dll` and `CamBam.CAD.Solids.dll` from the package into CamBam's existing plugin directory (the directory that contains its other plugin DLLs). The solids DLL is a required helper dependency and is included for users who do not already have it. If `CamBam.CAD.Solids.dll` is already present from the KDesign 3D Solids plugin, keep a backup before replacing it.
+2. Copy `RotaryAxisCamBamPlugin.dll` and, if it is not already present, `CamBam.CAD.Solids.dll` from the package into CamBam's existing plugin directory (the directory that contains its other plugin DLLs). The installer leaves an existing solids DLL in place; back it up before manually replacing it.
 3. Start CamBam and open **Plugins → Rotary Axis Control**.
 4. In the **Connection** tab, leave the physical connection closed, select **XYZ + A (4-axis)**, and click **START SIM**. Confirm the version is marked `SIM`, then test a small positive and negative jog and index to a nonzero target angle.
 5. Click **Set work zero**. Check the coordinate mode shown beside the top display: MPos remains the machine position. Click the mode label beside the display to switch from **MPos** to **WPos** and confirm the selected rotary axis reads zero.
