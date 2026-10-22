@@ -1,0 +1,16 @@
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\bin\Debug\RotaryAxisCamBamPlugin.dll
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\bin\Debug\RotaryAxisCamBamPlugin.pdb
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\RotaryAxisCamBamPlugin\obj\Debug\RotaryAxisCamBamPlugin.csprojResolveAssemblyReference.cache
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\RotaryAxisCamBamPlugin\obj\Debug\GRBLMachine.UI.AboutExpander.resources
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\RotaryAxisCamBamPlugin\obj\Debug\GRBLMachine.UI.ConnectionExpander.resources
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\RotaryAxisCamBamPlugin\obj\Debug\GRBLMachine.UI.ConsoleExpander.resources
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\RotaryAxisCamBamPlugin\obj\Debug\GRBLMachine.UI.DisplayExpander.resources
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\RotaryAxisCamBamPlugin\obj\Debug\GRBLMachine.UI.Expander.resources
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\RotaryAxisCamBamPlugin\obj\Debug\GRBLMachine.UI.GRBLMachinePage.resources
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\RotaryAxisCamBamPlugin\obj\Debug\GRBLMachine.UI.JoggingExpander.resources
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\RotaryAxisCamBamPlugin\obj\Debug\GRBLMachine.UI.ProductionExpander.resources
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\RotaryAxisCamBamPlugin\obj\Debug\GRBLMachine.UI.ToolChanger.resources
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\RotaryAxisCamBamPlugin\obj\Debug\GRBLMachine.Properties.Resources.resources
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\RotaryAxisCamBamPlugin\obj\Debug\RotaryAxisCamBamPlugin.csproj.GenerateResource.Cache
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\RotaryAxisCamBamPlugin\obj\Debug\RotaryAxisCamBamPlugin.dll
+D:\OneDrive\1_bakStaaJ\1 Projects\CamBam\RotaryAxisCamBamPlugin\obj\Debug\RotaryAxisCamBamPlugin.pdb
