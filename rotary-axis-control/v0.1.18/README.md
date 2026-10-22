@@ -6,7 +6,7 @@ A new CamBam plugin project based on the locally downloaded GRBL Machine Plugin 
 
 The initial codebase was derived from **GRBLMachinePlugin** by **KDesign Electronics / Karst Drenth** (2017). Original notices are retained in the source where present, and the original developer is credited in the plugin's About panel. This is an independent derivative project with its own name and ongoing development.
 
-## Release\n\nDownload the [v0.1.18 install package](https://github.com/bakstaaj/cambam_plugins/releases/tag/rotary-axis-control-v0.1.18). The release provides the install ZIP and its SHA-256 checksum.\n\n## Rotary axis milestone
+## Rotary axis milestone
 
 The plugin adds a selectable A/B/C axis, live rotary position feedback, relative degree jogging, single-angle indexing at a configured feed, and rotary work-zero setting. Commands are enabled only while connected and idle, outside a running job, and after the selected axis appears in controller position reports. The UI reminds the operator to clear the tool before indexing.
 
@@ -30,9 +30,14 @@ The position display expands as rotary axes are reported, with each rotary posit
 
 ![CamBam position display showing XYZ and A/B/C rotary coordinates](docs/screenshots/expanded-rotary-axis-display.png)
 
+The following development captures show the slate-and-mint DRO and refreshed simulator panel. They were captured during the final UI refinement; v0.1.18 includes the follow-up status-color and spacing fixes described above.
+
+![Themed DRO showing linear and rotary positions](docs/screenshots/themed-rotary-dro.png)
+
+![Themed connection panel with the simulator profile](docs/screenshots/themed-simulator-connection.png)
+
 ## Build
 
 The solution targets .NET Framework 3.5 and AnyCPU. Build `Plugins.sln` in Release mode with a Visual Studio/MSBuild installation that includes the .NET Framework 3.5 resource-generation tools. The build expects `CamBam.CAD.dll` and `CamBam.Geom.dll` from an installed CamBam copy under `CamBamLibs`; these proprietary CamBam assemblies are not included in source releases.
 
 An installable test package is prepared under `dist/`. See `TESTING.md` for installation and the first low-risk controller checks.
-
