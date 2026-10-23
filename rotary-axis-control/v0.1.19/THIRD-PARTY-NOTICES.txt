@@ -1,0 +1,9 @@
+Rotary Axis Control for CamBam - Third-Party Notices
+
+GRBLMachinePlugin
+The initial plugin codebase is derived from GRBLMachinePlugin by KDesign Electronics / Karst Drenth, 2017. Original notices are retained in source files where present.
+
+CamBam.CAD.Solids
+The package includes CamBam.CAD.Solids.dll, a required helper dependency by KDesign Electronics, copyright 2017. The assembly identifies itself as version 1.0.1.0. Original assembly metadata and source notices are retained.
+
+Rotary Axis Control is an independent derivative project. The notices above identify the third-party components and do not change their respective ownership.

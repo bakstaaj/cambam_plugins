@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="330" viewBox="0 0 920 330" role="img" aria-labelledby="title desc">
+  <title id="title">Rotary Axis Control connection options</title>
+  <desc id="desc">Illustration of the Connection panel with TCP/IP selected, host and port fields, simulator controls, and connection buttons arranged without overlap.</desc>
+  <rect width="920" height="330" rx="10" fill="#d9dee2"/>
+  <rect x="12" y="12" width="896" height="306" rx="6" fill="#f1f5f8" stroke="#9baab4" stroke-width="2"/>
+  <path d="M18 12h884a6 6 0 0 1 6 6v34H12V18a6 6 0 0 1 6-6z" fill="#344b5d"/>
+  <text x="460" y="40" text-anchor="middle" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">Connection</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="19" fill="#344b5d">
+    <text x="44" y="94">Ethernet:</text><text x="44" y="151">Host/IP:</text><text x="44" y="207">TCP port:</text>
+    <text x="557" y="92">Simulator profile:</text>
+  </g>
+  <rect x="246" y="70" width="24" height="24" rx="3" fill="#fff" stroke="#8498a6" stroke-width="2"/>
+  <path d="m251 82 5 5 10-12" fill="none" stroke="#16865b" stroke-width="3"/>
+  <text x="283" y="90" font-family="Segoe UI,Arial,sans-serif" font-size="19" fill="#344b5d">Use TCP/IP</text>
+  <rect x="246" y="128" width="270" height="38" rx="3" fill="#fff" stroke="#9aabb7" stroke-width="2"/>
+  <text x="258" y="153" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#687986">192.168.1.100</text>
+  <rect x="246" y="184" width="160" height="38" rx="3" fill="#fff" stroke="#9aabb7" stroke-width="2"/>
+  <text x="258" y="210" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#344b5d">23</text>
+  <rect x="246" y="238" width="24" height="24" rx="3" fill="#fff" stroke="#8498a6" stroke-width="2"/>
+  <text x="282" y="258" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#344b5d">Auto connect</text>
+  <rect x="246" y="272" width="170" height="36" rx="4" fill="#dcebf5" stroke="#8fa7b8" stroke-width="2"/>
+  <text x="331" y="296" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#244b68">CONNECT</text>
+  <rect x="557" y="112" width="300" height="42" rx="3" fill="#fff" stroke="#9aabb7" stroke-width="2"/>
+  <text x="574" y="139" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#344b5d">XYZ + A (4-axis)</text>
+  <path d="m829 128 10 10 10-10" fill="none" stroke="#526878" stroke-width="2.5"/>
+  <rect x="557" y="170" width="300" height="54" rx="4" fill="#dcebf5" stroke="#8fa7b8" stroke-width="2"/>
+  <text x="707" y="204" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#244b68">START SIM</text>
+  <text x="557" y="269" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#647582">Simulator never sends data over serial or Ethernet.</text>
+</svg>
