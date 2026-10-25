@@ -1,0 +1,3 @@
+ae7190ac1eda6cdc935e1c7ed14a918c752ec97ebbf6469f7c4c07a45abb7a6f *Tapping.dll
+9a5ce42835f3ade4cc2293dd0fb221725dd11c79de4c6d8ed3530aad3e1f4043 *ThreadMillCatalog.xml
+c92c7837c900f8c13366108ec82903e194c58bfa585b5e0eb2607da2a0d41d02 *Tapping-v0.1.1-install.zip
